@@ -2,6 +2,8 @@ pub mod magma;
 pub mod Semigroup;
 pub mod Monad;
 pub mod Group;
+pub mod Ring;
+pub mod Field;
 
 pub fn add(left: usize, right: usize) -> usize {
     left + right
